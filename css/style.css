@@ -1,119 +1,79 @@
-body{
-    margin:0;
-    padding:0;
+body header{
+    background-image: url(../img/wesley-propaganda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
-.dfc6{
-    position: absolute;
+p {
+    margin-bottom: 0.75rem;
+}
+@media (min-width: 1441px){
+    .containerConfig{
+        position: relative;
+        left: -200px;
+    }
+}
+/*IMAGENS*/
+#Feira-Empreendedor{
+    width: 20vw;
+}
+
+/*CORES ABAIXO*/
+.titleFeira{
+    color: #6d7ab1;
+    text-transform: uppercase;
+}
+.amarelo-increva-se{
+   background-color: #ffe72f;
+   color: black;
+}
+.amarelo-carousel{
+    color: #ffe72d;
+}
+.bordercarousel{
+    color: #a8d39e;
+}
+.carouselTitle{
+    color: #7074a4;
+}
+/*CORES PARA O SITE ACIMA*/
+/*tirar style do A*/
+.visite-o-site{
+    text-decoration: none;
+}
+.visite-o-site:hover{
+    color: black;
+    text-decoration: underline;
+}
+.visite-o-site strong{
+    color: black;
+}
+/*TEXTOS*/
+.titlePBS{
+    font-size: max(10px, 2vw);
+    margin-top: 3vh;
+    margin-bottom: 1.95vh;
+}
+.textos-de-explicacao{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: start;
 }
-#WesleySafadao{
-    width: 100%;
+.Paragraph{
+    font-size: max(8px, 1vw);
 }
-#empreendedor{
-   width: 70%;
-   margin-left: 60px;
-}
-.purple{
-    color: #7074b4;
-}
-.text-explanation{
-    font-size: 20px;
-    margin-top: 40px;
-}
-.sebrae{
-    text-decoration: none;
-    color: #0c2834;
-}
-.sebrae:hover{
-    color: #0c2834;
-}
-.btn-yellow{
-    background-color: #ffe72d;
-    width: 100%;
-    height: 50px;
-    border-radius: 8px;
-    margin-top: 35px;
-}
-#Sebrae{
-    width: 100px;
-    height: 82px;
-    position: relative;
-    margin-left: 80px;
-    bottom: 35px;
-}
-.maquina{
-    position: relative;
-    left: 85px;
-}
-.i{
-    border-radius: 50px;
-    color: black;
-    font-size: 35px;
-    border-color: black;
-    background-color: yellow;
-}
-.card-img-top{
-    width: 50%;
-    height: 50%;
-}
-.cardalign{
+.data-e-botao{
+    justify-content: start;
     display: flex;
     flex-direction: row;
-    border: 3px solid #a5d1ad;
 }
-.preço{
-    background-color: yellow;
-    height: 50px;
+.buttonYellow{
+    border-radius: 1vh;
+    font-size: max(0px, 1.5vw);
+    margin-top: 3.5vh;
+    margin-bottom: 1.95vh;
+    margin-left: 2vw;
 }
-.preçoposition{
-    margin: 0;
-    position: relative;
-    top: 11px;
-}
-.comprarmaquina{
-    position: relative;
-    left: -100px;
-    top: 45px;
-    border: 3px solid #a5d1ad;
-}
-.angleprev{
-    color: #7d7d73;
-    position: relative;
-    top: 210px;
-    right: 15px;
-    font-size: 20px;
-    background-color: #fde32e;
-    padding: 10px;
-    border-radius: 100%;
-    z-index: 4;
-}
-.angleprev:hover{
-    color: #7d7d73;
-}
-.anglenext{
-    float: right;
-    color: #7d7d73;
-    position: relative;
-    top: 210px;
-    left: 15px;
-    font-size: 20px;
-    background-color: #fde32e;
-    padding: 10px;
-    border-radius: 100%;
-    z-index: 4;
-}
-.anglenext:hover{
-    color:#7d7d73;
-}
-.carousel-indicators li{
-    border-radius: 100%;
-    width: 10px;
-    height: 10px;
-    position: relative;
-    background-color: black;
-}
-.uppercase{
+.buttonYellow b{
     text-transform: uppercase;
 }
