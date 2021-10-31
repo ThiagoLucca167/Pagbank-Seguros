@@ -1,21 +1,60 @@
-body header{
+@media (max-width:400px){
+    .botao-mes{
+        align-items: start!important;
+        flex-direction: column!important;
+    }
+    .botaoconfig{
+        margin: 0 !important;
+        margin-top: 1rem!important;
+        border-radius: 10px;
+        padding: 9px;      
+    }
+    .botaoconfig b{
+        font-size: 15px!important;
+    }
+    .imagem-pagbank-sebrae .img-fluid{
+        max-width: 100%!important;
+    }
+    .cardconfig{
+        height: auto;
+        width: 85% !important;
+    }   
+}/*end media 400px*/
+@media (max-width:576px){
+    .row-top{
+        padding-left: 20px;
+    }
+    .title-top-violet h2{
+        font-size: 2rem!important;
+    }
+    .textpraragraph{
+        font-size: 1.05rem!important;
+    }
+    .botao-mes{
+        justify-content: start;
+        align-items: center;
+    }
+    .botaoconfig{
+        margin-left: 0.5rem!important;
+        padding: 0;
+    }
+    .botaoconfig b{
+        font-size: 15px!important;
+    }
+}
+body section .row-top{
     background-image: url(../img/wesley-propaganda.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position:left center; 
 }
-p {
-    margin-bottom: 0.75rem;
-}
-@media (min-width: 2000px){
-    .containerConfig{
-        position: relative;
-        left: -200px;
-    }
+p{
+    margin: 0;
+    padding: 0;
 }
 /*IMAGENS*/
 #Feira-Empreendedor{
-    width: 20vw;
+    width: 30vw;
 }
 
 /*CORES ABAIXO*/
@@ -27,8 +66,8 @@ p {
    background-color: #ffe72f;
    color: black;
 }
-.amarelo-carousel{
-    color: #ffe72d;
+.color-card{
+    background-color: #ffe632;
 }
 .bordercarousel{
     color: #a8d39e;
@@ -36,58 +75,61 @@ p {
 .carouselTitle{
     color: #7074a4;
 }
+.color-angle{
+    color:#808179;
+}
 /*CORES PARA O SITE ACIMA*/
-/*tirar style do A*/
-.visite-o-site{
-    text-decoration: none;
+.row-top{
+    padding-left: 30px;
 }
-.visite-o-site:hover{
+.title-top-violet h2{
+    font-size: 3rem;
+}
+.paragraph-text-title{
+    padding: 0;
+}
+.textpraragraph{
+    font-size: 1.5rem;
+}
+.color-link-sebrae{
     color: black;
-    text-decoration: underline;
 }
-.visite-o-site strong{
-    color: black;
+.nostyle:hover{
+ text-decoration: none;
 }
-/*TEXTOS*/
-.titlePBS{
-    font-size: max(10px, 2vw);
-    margin-top: 3vh;
-    margin-bottom: 1.95vh;
-}
-.textos-de-explicacao{
+.botao-mes{
     display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-.Paragraph{
-    font-size: max(8px, 1vw);
-}
-.data-e-botao{
-    justify-content: start;
-    display: flex;
-    flex-direction: row;
+    justify-content:start;
     align-items: center;
+    flex-direction: row;
 }
-.buttonYellow{
-    border-radius: 1vh;
-    font-size: max(0px, 1.5vw);
-    margin-left: 2vw;
-}
-.buttonYellow b{
+.botaoconfig{
     text-transform: uppercase;
+    margin-left: 1rem;
+    border-radius: 10px;
+    padding: 15px;
 }
-.imagens{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-}
-.img-rodape{
-    width: 13vw;
-    height: 50%
+.botaoconfig b{
+    font-size: 16px;
 }
 
-/*PARTE CARDS*/
-.espacamento-card{
-    margin-top: 50px;
+.imagem-pagbank-sebrae{
+    display: flex;
+    align-items: center;
+}
+.imagem-pagbank-sebrae .img-fluid{
+    max-width:80%;
+}
+/*CARD ABAIXO*/
+.card-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cardconfig{
+    margin: auto;
+}
+.card-body{
+    padding: 1rem!important;
 }
