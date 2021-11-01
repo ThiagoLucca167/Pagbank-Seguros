@@ -42,6 +42,39 @@
         font-size: 15px!important;
     }
 }
+/*media carousel abaixo*/
+@media (max-width:550px){
+    .border-carousel{
+        width: 100%!important;
+    }
+    .comando-carousel {
+        margin-top: 25px;
+    }
+    .cp{
+        display: none;
+    }
+    .cn{
+        display: none;
+    }
+}
+@media (min-width:551px){
+    .comando-carousel{
+        margin-left: 30px !important;
+    }
+}
+@media (min-width:551px) and (max-width:850px){
+    .card-container{
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .configimgc{
+        position: relative!important;
+        left: 60px!important;
+        width: 60%;
+    }
+}
+/*media carousel acima*/
+
 body section .row-top{
     background-image: url(../img/wesley-propaganda.jpg);
     background-repeat: no-repeat;
@@ -70,10 +103,11 @@ p{
     background-color: #ffe632;
 }
 .bordercarousel{
-    color: #a8d39e;
+    color: #acd4d4;
 }
 .carouselTitle{
     color: #7074a4;
+    text-transform: uppercase;
 }
 .color-angle{
     color:#808179;
@@ -132,4 +166,78 @@ p{
 }
 .card-body{
     padding: 1rem!important;
+}
+/*CARD ACIMA*/
+/*CAROUSEL ABAIXO*/
+.comando-carousel{
+    margin-top: 25px;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+.border-carousel{
+    float: left;
+    border: 2px solid#acd4d4;
+    width: 45%;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+.configimgc{
+    width: 40%;
+}
+.button-a{
+    width: 40%;
+    position: relative;
+    top: 20px;
+    left: 35%;
+    border:3px solid #acd4d4;
+    background-color: #ffe632;
+    color: black;
+}
+.button-a:hover{
+    color: black;
+    border-color:#ffe632;
+    background-color: #ffe632;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #808179;
+  }
+  .cp{
+    float: left;
+    font-size: 25px;
+    color: #808179;
+    z-index: 2;
+    position: relative;
+    top: 220px;
+    left: 20px;
+  }
+  .cp:hover{
+    color: #808179;
+  }
+  .cn{
+    float: right;
+    font-size: 25px;
+    color: #808179;
+    z-index: 2;
+    position: relative;
+    top: 220px;
+    right: 20px; 
+  }
+  .cn:hover{
+      color:#808179;
+  }
+#indicadores{
+    bottom: -25px;
+  }
+  /*FOOTER*/
+.editfooter{
+    text-align: center;
+    padding: 15px;
+}
+.editfooter strong{
+    font-size: 1rem;
 }
