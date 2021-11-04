@@ -1,0 +1,183 @@
+
+@media (max-width:576px){
+    .row-top{
+        padding-left: 20px;
+    }
+    .title-top-violet h2{
+        font-size: 1.55rem !important;;
+    }
+}
+@media (max-width:2000px){
+    .title-top-violet h2{
+        font-size: 2rem!important;
+        margin-bottom: 25px;
+    }
+    .row-top{
+        height: 64em;
+    }
+}
+@media (min-width:2000px){
+    .row-top{
+        height: 86em;
+    }
+    .title-top-violet h2{
+        font-size: 4rem!important;
+        margin-bottom: 55px;
+    }
+    .produtos-voltar {
+        margin: 85px 0 !important;
+    }
+}
+body section .row-top{
+    background-image: url(../img/wesley-propaganda.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: left center; 
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/*CORES ABAIXO*/
+.color-card{
+    background-color: #ffe632;
+}
+.bordercarousel{
+    border: #acd4d4 3px solid;
+    border-radius: 20px;
+}
+.title-bottom{
+    color: #6a76af;
+}
+.color-angle{
+    color:#808179;
+}
+/*CORES PARA O SITE ACIMA*/
+.row-top{
+    padding-left: 30px;
+}
+.contexto2{
+    margin-bottom: 140px;
+}
+.produtos-voltar{
+    margin: 25px 0;
+}
+.produtos-voltar a{
+    font-size: 30px;
+    color: black;
+    font-weight: 800;
+}
+.pagbank-pagseguro img{
+    width: max(200px,25%);
+    margin-bottom: 25px;
+}
+.confira-dicas{
+    font-size: 1.9rem;
+}
+.configseta{
+   display: flex;
+   align-items: end;
+   justify-content: end;
+}
+.seta{
+    position: relative;
+    left: 85px;
+}
+
+/*CAROUSEL*/
+.card-body.card-padding{
+    padding: 2rem!important;
+}
+#iframe-config{
+    width: 100%;
+    height: 50vh;
+    display: block;
+}
+.carousel-control-prev{
+    background-color:transparent;
+    border: transparent;
+    color: #ffe72d;
+    height: 10px;
+    margin: auto 0;
+    width: 10px;
+}
+.carousel-control-prev i{
+    position: absolute;
+    left: 4px;
+    color: #808179;
+    font-size: 20px;
+    background-color: #ffe72d;
+    padding: 10px;
+    border-radius: 100%;
+}
+.carousel-control-next{
+    background-color:transparent;
+    border: transparent;
+    color: #ffe72d;
+    height: 10px;
+    margin: auto 0;
+    width: 10px;
+}
+.carousel-control-next i{
+    position: absolute;
+    right: 4px;
+    color: #808179;
+    font-size: 20px;
+    background-color: #ffe72d;
+    padding: 10px;
+    border-radius: 100%;
+}
+/*END CAROUSEL*/
+/*FUNDO VERDE*/
+.fundo-verde{
+    background: #81d4d5;
+}
+.row-verde{
+    padding: 0 15px;
+}
+.ftp{
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.RIM{
+    padding: 5px;
+}
+.pdf-download{
+    display: flex;
+    justify-content: space-around;
+}
+.pdfL{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 9px;
+    color: white;
+    border: 1px solid white;
+}
+.pdfL:hover{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:575px){
+    .RIM{
+    max-width: 50%;
+    margin-left: 80px;
+    }
+    .pdf-download {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .text-img{
+        margin-bottom:40px;
+    }
+}
+/*END FUNDO VERDE*/
+  /*FOOTER*/
+.editfooter{
+    text-align: center;
+    padding: 15px;
+}
+.editfooter strong{
+    font-size: 1rem;
+}
