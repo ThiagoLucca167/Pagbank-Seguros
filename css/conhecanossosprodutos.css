@@ -88,6 +88,24 @@ p{
 .card-body.card-padding{
     padding: 2rem!important;
 }
+/*MODAL DENTRO DO CAROUSEL*/
+.button-modal{
+    border: none;
+    background-color: transparent;
+}
+.btn-modal-iframe{
+    background-color: #ffe632;
+    border: 3px solid #acd4d4;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+@media (min-width: 576px){
+.modal-dialog{
+    width: 70%;
+    margin: 1.75rem auto;
+   }
+}
+/*END MODAL*/
 #iframe-config{
     width: 100%;
     height: 50vh;
@@ -126,6 +144,15 @@ p{
     background-color: #ffe72d;
     padding: 10px;
     border-radius: 100%;
+}
+#carousel-iframe{
+    width: 50%;
+    margin: auto;
+}
+@media(max-width:768px){
+    #carousel-iframe{
+    width: 100%!important;
+    }
 }
 /*END CAROUSEL*/
 /*FUNDO VERDE*/
@@ -173,11 +200,4 @@ p{
     }
 }
 /*END FUNDO VERDE*/
-  /*FOOTER*/
-.editfooter{
-    text-align: center;
-    padding: 15px;
-}
-.editfooter strong{
-    font-size: 1rem;
-}
+ 

@@ -1,0 +1,229 @@
+@media (max-width:490px){
+   .imagens1-textos{
+    display: flex;
+    flex-direction: column!important;
+    align-items: center;
+   }
+   .minizinha{
+    margin-top: 5px;
+    max-width: 100%;
+   }
+   .maquinagrande{
+    max-width: 35%;
+   }
+   .maquina2{
+    display: none;
+   }
+   .maquina2mobile{
+       display: block!important;
+   }
+   .cartao-conta{
+       flex-direction: column;
+   }
+   .cartaoconfig{
+    width: 12rem;
+    height: 6rem;
+   }
+   .adicionarmais{
+       width: 100%!important;
+       padding: 0 !important;
+   }
+  
+}
+@media (max-width:767px){
+    .chip2-quantidade{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .quantidade{
+        margin-top: 15px;
+    }
+    .quantidade label {
+        text-align: start !important;
+        padding-left:15px;
+    }
+    .img-cartao{
+        flex-direction: column;
+    }
+    .importante{
+        flex-direction: column;
+    }
+    .fotpl{
+        flex-direction: column;
+    }
+}
+@media (min-width:1000px){
+    .ipr{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+p{
+    margin: 0;
+}
+.row-pl{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo-line-bottom{
+    border-bottom: 2px solid #8cb72b;
+    padding-bottom:10px ;
+}
+#logo-a{
+    margin-top: 20px;
+}
+.title-carrinho{
+    color: #46b55d;
+    font-weight: 300;
+}
+.maquininhas-vendas{
+    padding: 10px;
+}
+.imagens1-textos{
+    display: flex;
+}
+.chip2-quantidade{
+    display: flex;
+}
+.minizinha{
+    max-width: 11rem;
+    max-height: 3rem;
+}
+.precos-button{
+    display: flex;
+}
+.quantidade{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quantidade label{
+    text-align: center;
+}
+.buttons-compra{
+    display: flex;
+}
+.btn-quantidade{
+    border: 2px solid #2b82be;
+    color: #2b82be;
+    border-radius: 10px;
+}
+.input{
+    width: 45px;
+    padding-left: 6px;
+    border: 2px solid #a19d9d;
+    border-radius: 10px;
+}
+.valor{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.valor strong{
+    font-size: 1.2rem;
+}
+.cartao-juros{
+    color: #666;
+    font-size:0.7rem;
+    font-weight: 700;
+}
+/*cartao PAGBANK*/
+
+.cartao-conta{
+    display: flex;
+    align-items: center;
+}
+.img-cartao{
+    display: flex;
+}
+.li-cartao{
+    list-style-type: initial;
+    color: #64bc4c;
+}
+.importante{
+    display: flex;
+    align-items: center;
+}
+.fp{
+    font-size: 1.09rem;
+}
+.importante{
+    background-color: #f1f1f1;
+}
+.iy{
+    color: rgb(250, 166, 9);
+    font-size: 25px;
+}
+/*adicionar mais produtos*/
+.adicionarmais{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+.adicionarmais i{
+    margin-right: 5px;
+}
+.shadow{
+    box-shadow: 0px 0px 10px 2px rgb(169 169 169) !important;
+}
+/*PIX*/
+.container-pix{
+    padding: 10px;
+}
+.colorpix{
+    color: #666;
+}
+.total-compra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+.sf{
+    font-size: 1.1rem;
+}
+.csg{
+    color: #73b743;
+}
+.total-xv{
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+.btn-green{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #73b844;
+    border-color: #67a53d;
+}
+.btn-green:hover{
+    color: #fff;
+    background-color: #578a35;
+}
+.lugares-regioes{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.frete{
+    display: flex;
+    align-items: baseline;
+}
+.fa-clock{
+    font-size: 2rem;
+}
+.regiao-list{
+    display: flex;
+    list-style-type: none;
+    font-size: 0.9rem;
+}
+/*FOOTER*/
+.footer{
+    text-align: center;
+}
+.text-foote{
+    font-size: 0.5rem;
+}

@@ -47,19 +47,11 @@
     .border-carousel{
         width: 100%!important;
     }
-    .comando-carousel {
-        margin-top: 25px;
-    }
     .cp{
         display: none;
     }
     .cn{
         display: none;
-    }
-}
-@media (min-width:551px){
-    .comando-carousel{
-        margin-left: 30px !important;
     }
 }
 @media (min-width:551px) and (max-width:850px){
@@ -73,7 +65,7 @@
         width: 60%;
     }
 }
-@media (min-width:1160px)and (max-width:1600px){
+/*@media (min-width:1160px)and (max-width:1600px){
     .cn{
         right: 60px!important;
     }
@@ -87,7 +79,7 @@
     .cn{
         right: 130px!important;
     }
-}
+}*/
 @media (min-width:1600px){
     .tmc{
         font-size: 2rem;
@@ -203,6 +195,8 @@ p{
 /*CARD ACIMA*/
 /*CAROUSEL ABAIXO*/
 .carousel-wapper{
+    width: 85%;
+    margin: auto;
     margin-top: 25px;
     padding-left: 20px; 
     padding-right: 10px;
@@ -241,18 +235,20 @@ p{
   }
   .cp{
     float: left;
-    font-size: 25px;
     color: #808179;
     z-index: 2;
     position: relative;
-      right: 10px;
-    top: 220px;
+    top:200px;
+    left: -38px;
     background-color: #ffe632;
     border-radius: 100%;
     padding: 5px;
+    width: 35px;
+    height: 35px;
+    border: none;
   }
   .cp i{
-    padding: 8px;
+    padding: 6px;
     width: 30px;
   }
   .cp:hover{
@@ -260,17 +256,20 @@ p{
   }
   .cn{
     float: right;
-    font-size: 25px;
     color: #808179;
     z-index: 2;
     position: relative;
-    top: 220px;
-    background-color:  #ffe632;
+    top:200px;
+    right: 10px;
+    background-color: #ffe632;
     border-radius: 100%;
     padding: 5px;
+    width: 35px;
+    height: 35px;
+    border: none;
   }
   .cn i{
-    padding: 8px;
+    padding: 6px;
     width: 30px;
   }
   .cn:hover{
@@ -279,11 +278,17 @@ p{
 #indicadores{
     bottom: -25px;
   }
-  /*FOOTER*/
-.editfooter{
-    text-align: center;
+ /*FOOTER*/
+ .editfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
 }
 .editfooter strong{
-    font-size: 1rem;
+    font-size:1rem;
+}
+.editfooter img{
+    width: 50%;
 }
